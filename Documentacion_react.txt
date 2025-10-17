@@ -37,15 +37,38 @@ Comprobar el estado del proyecto:
 git status
 
 
-(si aparece algo en Rojo significa que el archivo es nuevo o se ha modificado).
+(si aparece algo en Rojo significa que el archivo es nuevo o se ha modificad
+o).
 
 Comandos para actualizar el repositorio con la version local:
 git status
 git add .
-git commit .m "descripcion del commit"
+git commit -m "descripcion del commit"
 git push
 
 Crear Ramas:
 git checkout -b nombre_de_la_rama
 git switch -c nombre_de_la_rama
 git push origin nombre_de_la_rama
+
+
+cambiar a la rama main
+git checkout main
+
+---CREAR PROYECTO REACT---
+
+(si no funciona con bash, hacerlo con windows)
+win + r 
+cd desktop
+
+Creacion de un proyecto React
+npm create vite@latest 
+
+Se le coloca un nombre al proyecto
+Project name: "proyecto_nombre"
+
+Select framework
+>React
+
+Select a Variant:
+JavaScript + SWC
