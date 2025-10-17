@@ -46,4 +46,6 @@ git commit .m "descripcion del commit"
 git push
 
 Crear Ramas:
-git checkout 
+git checkout -b nombre_de_la_rama
+git switch -c nombre_de_la_rama
+git push origin nombre_de_la_rama
